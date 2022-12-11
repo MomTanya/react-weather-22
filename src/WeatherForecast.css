@@ -1,8 +1,42 @@
-.WeatherForecast {
-    text-align: center;
+.Days {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.2);
+  text-align: center;
+
 }
 
-.WeatherForecast-temperature-min {
-    opacity: 0,6;
-    margin-left: 5px;
+.Days p {
+  margin: 0;
+  padding-top: 10px;
+}
+.ForecastIcons {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.daysWeekday {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.forecastMax {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.forecastMin {
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.cityNextTempContainer {
+  display: inline-block;
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.cityNextTempContainer .Row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
