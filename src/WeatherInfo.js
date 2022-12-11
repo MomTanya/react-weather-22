@@ -23,7 +23,7 @@ return (
             <Card.Title> 
         
               <h1>{props.data.city}</h1></Card.Title>
-            <Card.Text>
+            <Card.Text className="color={dark}">
             <ul>
                <li>
                   <FormattedDate date={props.data.date} />
